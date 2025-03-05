@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petshop do Gustavao</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/pages/home.min.css" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="page-home">
+    <div class="container">
+      <div class="row">
+        <div class="col col-desktop-3 col-6">
+          <a href="index.html">
+            <img src="images/petshop.png" alt="Logo do Petshop do Gustavao" />
+          </a>
+        </div>
+        <div class="col col-desktop-9 col-6">
+          <nav>
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="quem-somos.html">Quem somos</a></li>
+              <li><a href="clientes.html">Clientes</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-desktop-12 title">
+          <h1>Petshop do Gustavao</h1>
+          <a href="produto.html" class="btn">Começar agora</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="how-it-work" class="section section-center">
+      <h2>Nossos Serviços</h2>
+      <p class="subtitle">O melhor pet shop que você conhecerá em sua vida, tratamento único para o seu animal de estimação.</p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">schedule</i>
+            </div>
+            <h3>Trabalho Ágil</h3>
+            <p>Nossos serviços são extremamente ágeis, realizados por profissionais diversificados e capacitados.</p>
+            <p><a href="produto.html" class="btn">Saiba mais</a></p>
+          </div>
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">work</i>
+            </div>
+            <h3>Grupo de Trabalho</h3>
+            <p>Trabalhamos com vários profissionais; são mais de 3 pessoas para cada pet, o que torna o trabalho eficaz e eficiente.</p>
+            <p><a href="produto.html" class="btn">Saiba mais</a></p>
+          </div>
+          <div class="col col-desktop-4">
+            <div class="icon-container">
+              <i class="material-icons">https</i>
+            </div>
+            <h3>Segurança</h3>
+            <p>Tratamos seu pet com extremo cuidado, desde os cuidados em trânsito até o jeito carinhoso de realizar diferentes tratamentos.</p>
+            <p><a href="produto.html" class="btn">Saiba mais</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="customers" class="section section-center">
+      <h2>Nossos Clientes</h2>
+      <p class="subtitle">Nossos clientes que nos conhecem avaliam nosso serviço com nota 10.</p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col col-desktop-3"><img src="images/diogo.png" alt="Cliente 1"></div>
+          <div class="col col-desktop-3"><img src="images/fernandao.png" alt="Cliente 2"></div>
+          <div class="col col-desktop-3"><img src="images/pika.png" alt="Cliente 3"></div>
+          <div class="col col-desktop-3"><img src="images/samir.png" alt="Cliente 4"></div>
+        </div>
+
+        <div class="row">
+          <div class="col col-desktop-12">
+            <a href="clientes.html" class="btn">Todos os clientes <i class="material-icons">arrow_forward</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="section section-center">
+      <h2>Nossa Equipe</h2>
+      <p class="subtitle">A melhor equipe completa e especializada em tratamento de animais domésticos.</p>
+      <div class="row">
+        <div class="col col-offset-desktop-1 col-desktop-2">
+          <div class="img-box-round"><img src="images/gustavo.jpeg" alt="Gustavo"></div>
+          <p class="img-box-label">CEO</p>
+        </div>
+        <div class="col col-desktop-2">
+          <div class="img-box-round"><img src="images/gustavo.jpeg" alt="Gustavo"></div>
+          <p class="img-box-label">Domador</p>
+        </div>
+        <div class="col col-desktop-2">
+          <div class="img-box-round"><img src="images/gustavo.jpeg" alt="Gustavo"></div>
+          <p class="img-box-label">Lavador de Cães</p>
+        </div>
+        <div class="col col-desktop-2">
+          <div class="img-box-round"><img src="images/gustavo.jpeg" alt="Gustavo"></div>
+          <p class="img-box-label">Lavador de Gatos</p>
+        </div>
+        <div class="col col-desktop-2">
+          <div class="img-box-round"><img src="images/gustavo.jpeg" alt="Gustavo"></div>
+          <p class="img-box-label">Busca de Animais</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-offset-desktop-1 col-desktop-3">
+          <p><a href="index.html"><img src="images/petshop.png" alt="Logo do Petshop do Gustavao"></a></p>
+          <p>Venha para o Petshop do Gustavao.</p>
+        </div>
+        <div class="col col-offset-desktop-1 col-desktop-2 col-2">
+          <h3>Menu</h3>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="quem-somos.html">Quem somos</a></li>
+              <li><a href="clientes.html">Clientes</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col col-desktop-2 col-2">
+        </div>
+      </div>
+    </div>
+    <div id="copyright">
+      <p>&copy; 2024 Petshop do Gustavao. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
